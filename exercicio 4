@@ -1,0 +1,16 @@
+package exercicio;
+import java.util.Scanner;
+public class exercicios {
+	public static void main(String[]args) {
+Scanner sc = new Scanner(System.in);
+
+System.out.print("digite o ano:");
+int ano = sc.nextInt();
+
+if(ano % 4 == 0 ) {
+	System.out.println("é ano bissexto");
+}
+
+sc.close();
+	}
+}
